@@ -1,0 +1,12 @@
+Livewire es un framework de JS pero destinado especialmente para Laravel. Esta es una solución que reemplaza 
+...la manera en que se trabajaba antes con Laravel para darle dinamismo a las páginas sin tener que...
+...refrescarlas, que era con Ajax y/o Axios empleando algún framework como Vue.
+
+Comandos:
+-composer -vue  (para comprobar que ya estaba composer instalado)
+-composer create-project laravel/laravel first-livewire-app
+-cd .\first-livewire-app\   (porque aunque se llamen igual las carpetas, una es aparte que es la que tiene el proyecto)
+-php artisan serve  (para probar la aplicación por default)
+-composer require livewire/livewire     (instalación de livewire)
+-php artisan make:livewire counter      (creación de un componente de Livewire, el comando crea tanto su "back" como su "front")
+
