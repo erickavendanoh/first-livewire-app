@@ -10,3 +10,4 @@ Comandos:
 -composer require livewire/livewire     (instalación de livewire)
 -php artisan make:livewire counter      (creación de un componente de Livewire, el comando crea tanto su "back" como su "front")
 
+Después de clonarlo en local, para que funcione ejecutar comando: "composer install"
